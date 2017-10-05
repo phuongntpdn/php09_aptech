@@ -5,10 +5,10 @@
 </head>
 <body>
 <form action="dangky.php" name="dangky" method="post" >
-	<input type="text" name="name" placeholder="input your name" required>
-	<input type="text" name="class" placeholder="input your classname" required>
-	<input type="number" name="age" placeholder="input your birthday" required>
-	<input type="email" name="mail" placeholder="input your mail" required>
+	<p> Name: <input type="text" name="name" placeholder="input your name" required> </p>
+	<p> Class name: <input type="text" name="class" placeholder="input your classname" required> </p>
+	<p> Age: <input type="number" name="age" min="18" max="40" step="1" value="18" placeholder="input your birthday" required> </p>
+	<p> Email: <input type="email" name="mail" placeholder="input your mail" required> </p>
 	<input type="submit" name="Gửi">
 </form>
 
